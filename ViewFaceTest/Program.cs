@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -19,8 +19,8 @@ namespace ViewFaceTest
         static void Main()
         {
             // 老图片路径
-            string oldImgPath = @"C:/Project/View.local.Packages/Images/Image.ViewFace.Test/5.jpg";
-            string newImgPath = @"C:/Project/View.local.Packages/Images/Image.ViewFace.Test/1.jpg";
+            string oldImgPath = @"C:\Users\yangw\OneDrive\Project\View.local.Packages\Images\Image.ViewFace.Test\head.jpg";
+            string newImgPath = @"C:\Users\yangw\OneDrive\Project\View.local.Packages\Images\Image.ViewFace.Test\1.jpg";
 
             ViewFace viewFace = new ViewFace((str) => { Debug.WriteLine(str); }); // 初始化人脸识别类，并设置 日志回调函数
             // 系统默认使用的轻量级识别模型。如果对精度有要求，请切换到 Normal 模式；并下载需要模型文件 放入生成目录的 model 文件夹中
